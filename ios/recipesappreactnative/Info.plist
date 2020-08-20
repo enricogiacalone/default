@@ -78,5 +78,12 @@
 	<string>Give recipesappreactnative periences permission to access your photos</string>
 	<key>NSRemindersUsageDescription</key>
 	<string>Allow recipesappreactnative to access your reminders</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Everett-Medium.ttf</string>
+		<string>Everett-Regular.ttf</string>
+		<string>nen-icons.ttf</string>
+		<string>Everett-Light.ttf</string>
+	</array>
 </dict>
 </plist>

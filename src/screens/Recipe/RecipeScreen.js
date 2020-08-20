@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   FlatList,
   ScrollView,
@@ -7,34 +7,40 @@ import {
   TouchableOpacity,
   Image,
   Dimensions,
-  TouchableHighlight
-} from 'react-native';
-import styles from './styles';
-import Carousel, { Pagination } from 'react-native-snap-carousel';
-import { getIngredientName, getCategoryName, getCategoryById } from '../../data/MockDataAPI';
-import BackButton from '../../components/BackButton/BackButton';
-import ViewIngredientsButton from '../../components/ViewIngredientsButton/ViewIngredientsButton';
+  TouchableHighlight,
+} from "react-native";
+import styles from "./styles";
+import Carousel, { Pagination } from "react-native-snap-carousel";
+import {
+  getIngredientName,
+  getCategoryName,
+  getCategoryById,
+} from "../../data/MockDataAPI";
+import BackButton from "../../components/BackButton/BackButton";
+import ViewIngredientsButton from "../../components/ViewIngredientsButton/ViewIngredientsButton";
+import Icon from "react-native-vector-icons/FontAwesome";
+import CustomIcon from "../../components/Icons/CustomIcon";
 
-const { width: viewportWidth } = Dimensions.get('window');
+const { width: viewportWidth } = Dimensions.get("window");
 
 export default class RecipeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
-      headerTransparent: 'true',
+      headerTransparent: "true",
       headerLeft: (
         <BackButton
           onPress={() => {
             navigation.goBack();
           }}
         />
-      )
+      ),
     };
   };
 
   constructor(props) {
     super(props);
     this.state = {
-      activeSlide: 0
+      activeSlide: 0,
     };
   }
 
@@ -46,16 +52,16 @@ export default class RecipeScreen extends React.Component {
     </TouchableHighlight>
   );
 
-  onPressIngredient = item => {
+  onPressIngredient = (item) => {
     var name = getIngredientName(item);
     let ingredient = item;
-    this.props.navigation.navigate('Ingredient', { ingredient, name });
+    this.props.navigation.navigate("Ingredient", { ingredient, name });
   };
 
   render() {
     const { activeSlide } = this.state;
     const { navigation } = this.props;
-    const item = navigation.getParam('item');
+    const item = navigation.getParam("item");
     const category = getCategoryById(item.categoryId);
     const title = getCategoryName(category.id);
 
@@ -64,7 +70,7 @@ export default class RecipeScreen extends React.Component {
         <View style={styles.carouselContainer}>
           <View style={styles.carousel}>
             <Carousel
-              ref={c => {
+              ref={(c) => {
                 this.slider1Ref = c;
               }}
               data={item.photosArray}
@@ -78,7 +84,7 @@ export default class RecipeScreen extends React.Component {
               autoplay={false}
               autoplayDelay={500}
               autoplayInterval={3000}
-              onSnapToItem={index => this.setState({ activeSlide: index })}
+              onSnapToItem={(index) => this.setState({ activeSlide: index })}
             />
             <Pagination
               dotsLength={item.photosArray.length}
@@ -95,17 +101,26 @@ export default class RecipeScreen extends React.Component {
           </View>
         </View>
         <View style={styles.infoRecipeContainer}>
+          <Icon name="rocket" size={80} color="#bf1313" />
+          <CustomIcon name="arrow_left" size={80} color="#bf1313" />
           <Text style={styles.infoRecipeName}>{item.title}</Text>
           <View style={styles.infoContainer}>
             <TouchableHighlight
-              onPress={() => navigation.navigate('RecipesList', { category, title })}
+              onPress={() =>
+                navigation.navigate("RecipesList", { category, title })
+              }
             >
-              <Text style={styles.category}>{getCategoryName(item.categoryId).toUpperCase()}</Text>
+              <Text style={styles.category}>
+                {getCategoryName(item.categoryId).toUpperCase()}
+              </Text>
             </TouchableHighlight>
           </View>
 
           <View style={styles.infoContainer}>
-            <Image style={styles.infoPhoto} source={require('../../../assets/icons/time.png')} />
+            <Image
+              style={styles.infoPhoto}
+              source={require("../../../assets/icons/time.png")}
+            />
             <Text style={styles.infoRecipe}>{item.time} minutes </Text>
           </View>
 
@@ -113,8 +128,11 @@ export default class RecipeScreen extends React.Component {
             <ViewIngredientsButton
               onPress={() => {
                 let ingredients = item.ingredients;
-                let title = 'Ingredients for ' + item.title;
-                navigation.navigate('IngredientsDetails', { ingredients, title });
+                let title = "Ingredients for " + item.title;
+                navigation.navigate("IngredientsDetails", {
+                  ingredients,
+                  title,
+                });
               }}
             />
           </View>

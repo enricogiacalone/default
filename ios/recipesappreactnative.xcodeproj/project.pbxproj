@@ -11,7 +11,8 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		67D9A2BE2B8B7219EFDDB3A8 /* libPods-recipesappreactnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE18FD478B28701F609F9B65 /* libPods-recipesappreactnative.a */; };
+		ADF445A00BE4BC728D56BC4D /* libPods-recipesappreactnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 349171E860B1AEDF02A717C7 /* libPods-recipesappreactnative.a */; };
+		FB7C8F2B24EEC46800F334EC /* nen-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7C8F2424EEB56900F334EC /* nen-icons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +25,12 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = recipesappreactnative/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = recipesappreactnative/main.m; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE18FD478B28701F609F9B65 /* libPods-recipesappreactnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-recipesappreactnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4D43596C700D2F6F44E68AE /* Pods-recipesappreactnative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipesappreactnative.release.xcconfig"; path = "Target Support Files/Pods-recipesappreactnative/Pods-recipesappreactnative.release.xcconfig"; sourceTree = "<group>"; };
-		B5304CE075D37FA5CE13707D /* Pods-recipesappreactnative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipesappreactnative.debug.xcconfig"; path = "Target Support Files/Pods-recipesappreactnative/Pods-recipesappreactnative.debug.xcconfig"; sourceTree = "<group>"; };
+		349171E860B1AEDF02A717C7 /* libPods-recipesappreactnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-recipesappreactnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8648A8EF4515A6C56A569C /* Pods-recipesappreactnative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipesappreactnative.debug.xcconfig"; path = "Target Support Files/Pods-recipesappreactnative/Pods-recipesappreactnative.debug.xcconfig"; sourceTree = "<group>"; };
+		B8A150C5EB474E39FF53DC28 /* Pods-recipesappreactnative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipesappreactnative.release.xcconfig"; path = "Target Support Files/Pods-recipesappreactnative/Pods-recipesappreactnative.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FB7C8F2424EEB56900F334EC /* nen-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "nen-icons.ttf"; path = "../../src/assets/fonts/Icons/nen-icons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D9A2BE2B8B7219EFDDB3A8 /* libPods-recipesappreactnative.a in Frameworks */,
+				ADF445A00BE4BC728D56BC4D /* libPods-recipesappreactnative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +65,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				AE18FD478B28701F609F9B65 /* libPods-recipesappreactnative.a */,
+				349171E860B1AEDF02A717C7 /* libPods-recipesappreactnative.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,6 +80,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FB7C8F2324EEB52900F334EC /* Resources */,
 				13B07FAE1A68108700A75B9A /* recipesappreactnative */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -100,10 +103,18 @@
 		DA7D4253EF67D474800E9FFC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B5304CE075D37FA5CE13707D /* Pods-recipesappreactnative.debug.xcconfig */,
-				B4D43596C700D2F6F44E68AE /* Pods-recipesappreactnative.release.xcconfig */,
+				3A8648A8EF4515A6C56A569C /* Pods-recipesappreactnative.debug.xcconfig */,
+				B8A150C5EB474E39FF53DC28 /* Pods-recipesappreactnative.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB7C8F2324EEB52900F334EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C8F2424EEB56900F334EC /* nen-icons.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,13 +124,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "recipesappreactnative" */;
 			buildPhases = (
-				B2EE5E4DE0F8C3ECB18C3574 /* [CP] Check Pods Manifest.lock */,
+				3B0AFDD01C58979133C85769 /* [CP] Check Pods Manifest.lock */,
 				FD4C38642228810C00325AF5 /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				4C0A676A3E4DD482293462E5 /* [CP] Copy Pods Resources */,
+				DCC39ADDF36A0813A54FE5BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7C8F2B24EEC46800F334EC /* nen-icons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -185,7 +197,29 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		4C0A676A3E4DD482293462E5 /* [CP] Copy Pods Resources */ = {
+		3B0AFDD01C58979133C85769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-recipesappreactnative-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC39ADDF36A0813A54FE5BA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -231,28 +265,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-recipesappreactnative/Pods-recipesappreactnative-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B2EE5E4DE0F8C3ECB18C3574 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-recipesappreactnative-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD4C38642228810C00325AF5 /* Start Packager */ = {
@@ -303,7 +315,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5304CE075D37FA5CE13707D /* Pods-recipesappreactnative.debug.xcconfig */;
+			baseConfigurationReference = 3A8648A8EF4515A6C56A569C /* Pods-recipesappreactnative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -323,7 +335,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4D43596C700D2F6F44E68AE /* Pods-recipesappreactnative.release.xcconfig */;
+			baseConfigurationReference = B8A150C5EB474E39FF53DC28 /* Pods-recipesappreactnative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;

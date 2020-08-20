@@ -2,7 +2,14 @@
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",
+    "android-dev": "ENVFILE=.env.dev react-native run-android",
+    "android-stage": "ENVFILE=.env.stage react-native run-android",
+    "build-android-dev": "export ENVFILE=.env.dev && cd android && ./gradlew assembleRelease && cd ..",
     "ios": "react-native run-ios",
+    "ios-dev": "ENVFILE=.env.dev react-native run-ios",
+    "ios-stage": "ENVFILE=.env.stage react-native run-ios",
+    "purge": "rm -rf node_modules/ && npm install && cd ios && pod deintegrate && pod install && cd .. && npm start -- --reset-cache",
+    "clean:build:android": "rm -rf android/app/build",
     "web": "expo start --web"
   },
   "dependencies": {

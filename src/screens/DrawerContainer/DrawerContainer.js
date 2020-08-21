@@ -1,10 +1,10 @@
-import React from 'react';
-import { View } from 'react-native';
-import PropTypes from 'prop-types';
-import styles from './styles';
-import MenuButton from '../../components/MenuButton/MenuButton';
+import { React, Component } from "react";
+import { View } from "react-native";
+import PropTypes from "prop-types";
+import styles from "./styles";
+import MenuButton from "../../components/MenuButton/MenuButton";
 
-export default class DrawerContainer extends React.Component {
+export default class DrawerContainer extends Component {
   render() {
     const { navigation } = this.props;
     return (
@@ -12,25 +12,25 @@ export default class DrawerContainer extends React.Component {
         <View style={styles.container}>
           <MenuButton
             title="HOME"
-            source={require('../../../assets/icons/home.png')}
+            source={require("../../../assets/icons/home.png")}
             onPress={() => {
-              navigation.navigate('Home');
+              navigation.navigate("Home");
               navigation.closeDrawer();
             }}
           />
           <MenuButton
             title="CATEGORIES"
-            source={require('../../../assets/icons/category.png')}
+            source={require("../../../assets/icons/category.png")}
             onPress={() => {
-              navigation.navigate('Categories');
+              navigation.navigate("Categories");
               navigation.closeDrawer();
             }}
           />
           <MenuButton
             title="SEARCH"
-            source={require('../../../assets/icons/search.png')}
+            source={require("../../../assets/icons/search.png")}
             onPress={() => {
-              navigation.navigate('Search');
+              navigation.navigate("Search");
               navigation.closeDrawer();
             }}
           />
@@ -42,6 +42,6 @@ export default class DrawerContainer extends React.Component {
 
 DrawerContainer.propTypes = {
   navigation: PropTypes.shape({
-    navigate: PropTypes.func.isRequired
-  })
+    navigate: PropTypes.func.isRequired,
+  }),
 };

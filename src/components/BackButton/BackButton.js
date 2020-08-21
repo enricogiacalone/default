@@ -1,13 +1,19 @@
-import React from 'react';
-import { TouchableHighlight, Image, Text, View } from 'react-native';
-import PropTypes from 'prop-types';
-import styles from './styles';
+import { React, Component } from "react";
+import { TouchableHighlight, Image, Text, View } from "react-native";
+import PropTypes from "prop-types";
+import styles from "./styles";
 
-export default class BackButton extends React.Component {
+export default class BackButton extends Component {
   render() {
     return (
-      <TouchableHighlight onPress={this.props.onPress} style={styles.btnContainer}>
-        <Image source={require('../../../assets/icons/backArrow.png')} style={styles.btnIcon} />
+      <TouchableHighlight
+        onPress={this.props.onPress}
+        style={styles.btnContainer}
+      >
+        <Image
+          source={require("../../../assets/icons/backArrow.png")}
+          style={styles.btnIcon}
+        />
       </TouchableHighlight>
     );
   }
@@ -16,5 +22,5 @@ export default class BackButton extends React.Component {
 BackButton.propTypes = {
   onPress: PropTypes.func,
   source: PropTypes.number,
-  title: PropTypes.string
+  title: PropTypes.string,
 };

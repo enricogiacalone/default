@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, Component } from "react";
 import {
   FlatList,
   Text,
@@ -12,7 +12,7 @@ import {
   getAllIngredients,
 } from '../../data/MockDataAPI';
 
-export default class IngredientsDetailsScreen extends React.Component {
+export default class IngredientsDetailsScreen extends Component {
   static navigationOptions = ({ navigation }) => {
     return {
       title: navigation.getParam('title'),

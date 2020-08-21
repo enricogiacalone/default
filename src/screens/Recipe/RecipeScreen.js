@@ -1,4 +1,4 @@
-import React from "react";
+import { React, Component } from "react";
 import {
   FlatList,
   ScrollView,
@@ -23,7 +23,7 @@ import CustomIcon from "../../components/Icons/CustomIcon";
 
 const { width: viewportWidth } = Dimensions.get("window");
 
-export default class RecipeScreen extends React.Component {
+export default class RecipeScreen extends Component {
   static navigationOptions = ({ navigation }) => {
     return {
       headerTransparent: "true",

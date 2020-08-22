@@ -13,11 +13,20 @@ import {
   getRecipesByIngredient,
   getCategoryName,
 } from "../../data/MockDataAPI";
+import BackButton from "../../components/BackButton/BackButton";
 
 export default class IngredientScreen extends Component {
   static navigationOptions = ({ navigation }) => {
     return {
       title: navigation.getParam("name"),
+      headerTransparent: "true",
+      headerLeft: (
+        <BackButton
+          onPress={() => {
+            navigation.goBack();
+          }}
+        />
+      ),
     };
   };
 

@@ -2,10 +2,9 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   btnContainer: {
-    flex: 1,
     alignItems: 'center',
-    borderRadius: 180,
-    padding: 8,
+    justifyContent:'center',
+    borderRadius: 90,
     margin: 10,
     backgroundColor: 'white',
     shadowColor: '#000',
@@ -14,12 +13,13 @@ const styles = StyleSheet.create({
       height: 2
     },
     shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 3
+    shadowRadius:90,
+    height: 45,
+    width: 45
   },
   btnIcon: {
-    height: 17,
-    width: 17
+    height: 30,
+    width: 30
   }
 });
 

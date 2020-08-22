@@ -102,7 +102,6 @@ export default class RecipeScreen extends Component {
         </View>
         <View style={styles.infoRecipeContainer}>
           <Icon name="rocket" size={80} color="#bf1313" />
-          <CustomIcon name="arrow_left" size={80} color="#bf1313" />
           <Text style={styles.infoRecipeName}>{item.title}</Text>
           <View style={styles.infoContainer}>
             <TouchableHighlight

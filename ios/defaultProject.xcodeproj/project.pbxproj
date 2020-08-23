@@ -11,23 +11,23 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		ADF445A00BE4BC728D56BC4D /* libPods-recipesappreactnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 349171E860B1AEDF02A717C7 /* libPods-recipesappreactnative.a */; };
+		CDEC4CAACAE63F547D86F1CC /* libPods-defaultProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1F209C31281C33B0BF32F5 /* libPods-defaultProject.a */; };
 		FB7C8F2B24EEC46800F334EC /* nen-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7C8F2424EEB56900F334EC /* nen-icons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* recipesappreactnative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipesappreactnative.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = recipesappreactnative/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = recipesappreactnative/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* defaultProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = defaultProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = defaultProject/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = defaultProject/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = recipesappreactnative/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = recipesappreactnative/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = recipesappreactnative/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = defaultProject/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = defaultProject/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = defaultProject/main.m; sourceTree = "<group>"; };
+		2571D234994F282D59328502 /* Pods-defaultProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaultProject.release.xcconfig"; path = "Target Support Files/Pods-defaultProject/Pods-defaultProject.release.xcconfig"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		349171E860B1AEDF02A717C7 /* libPods-recipesappreactnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-recipesappreactnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A8648A8EF4515A6C56A569C /* Pods-recipesappreactnative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipesappreactnative.debug.xcconfig"; path = "Target Support Files/Pods-recipesappreactnative/Pods-recipesappreactnative.debug.xcconfig"; sourceTree = "<group>"; };
-		B8A150C5EB474E39FF53DC28 /* Pods-recipesappreactnative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipesappreactnative.release.xcconfig"; path = "Target Support Files/Pods-recipesappreactnative/Pods-recipesappreactnative.release.xcconfig"; sourceTree = "<group>"; };
+		5D1F209C31281C33B0BF32F5 /* libPods-defaultProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaultProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B8636AB0E66DC2A8F7EEE3 /* Pods-defaultProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaultProject.debug.xcconfig"; path = "Target Support Files/Pods-defaultProject/Pods-defaultProject.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FB7C8F2424EEB56900F334EC /* nen-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "nen-icons.ttf"; path = "../../src/assets/fonts/Icons/nen-icons.ttf"; sourceTree = "<group>"; };
@@ -38,14 +38,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF445A00BE4BC728D56BC4D /* libPods-recipesappreactnative.a in Frameworks */,
+				CDEC4CAACAE63F547D86F1CC /* libPods-defaultProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* recipesappreactnative */ = {
+		13B07FAE1A68108700A75B9A /* defaultProject */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -56,7 +56,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = recipesappreactnative;
+			name = defaultProject;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -65,7 +65,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				349171E860B1AEDF02A717C7 /* libPods-recipesappreactnative.a */,
+				5D1F209C31281C33B0BF32F5 /* libPods-defaultProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				FB7C8F2324EEB52900F334EC /* Resources */,
-				13B07FAE1A68108700A75B9A /* recipesappreactnative */,
+				13B07FAE1A68108700A75B9A /* defaultProject */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -95,7 +95,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* recipesappreactnative.app */,
+				13B07F961A680F5B00A75B9A /* defaultProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,8 +103,8 @@
 		DA7D4253EF67D474800E9FFC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A8648A8EF4515A6C56A569C /* Pods-recipesappreactnative.debug.xcconfig */,
-				B8A150C5EB474E39FF53DC28 /* Pods-recipesappreactnative.release.xcconfig */,
+				E5B8636AB0E66DC2A8F7EEE3 /* Pods-defaultProject.debug.xcconfig */,
+				2571D234994F282D59328502 /* Pods-defaultProject.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -120,25 +120,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* recipesappreactnative */ = {
+		13B07F861A680F5B00A75B9A /* defaultProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "recipesappreactnative" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "defaultProject" */;
 			buildPhases = (
-				3B0AFDD01C58979133C85769 /* [CP] Check Pods Manifest.lock */,
+				1EA7AEB2B8512697B25FC053 /* [CP] Check Pods Manifest.lock */,
 				FD4C38642228810C00325AF5 /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				DCC39ADDF36A0813A54FE5BA /* [CP] Copy Pods Resources */,
+				3E32078ECA166E8EE5CE5F97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = recipesappreactnative;
+			name = defaultProject;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* recipesappreactnative.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* defaultProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +150,7 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Facebook;
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "recipesappreactnative" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "defaultProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -164,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* recipesappreactnative */,
+				13B07F861A680F5B00A75B9A /* defaultProject */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +197,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		3B0AFDD01C58979133C85769 /* [CP] Check Pods Manifest.lock */ = {
+		1EA7AEB2B8512697B25FC053 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,20 +212,20 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-recipesappreactnative-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-defaultProject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCC39ADDF36A0813A54FE5BA /* [CP] Copy Pods Resources */ = {
+		3E32078ECA166E8EE5CE5F97 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-recipesappreactnative/Pods-recipesappreactnative-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-defaultProject/Pods-defaultProject-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -264,7 +264,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-recipesappreactnative/Pods-recipesappreactnative-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-defaultProject/Pods-defaultProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD4C38642228810C00325AF5 /* Start Packager */ = {
@@ -307,7 +307,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = recipesappreactnative;
+			path = defaultProject;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -315,12 +315,12 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A8648A8EF4515A6C56A569C /* Pods-recipesappreactnative.debug.xcconfig */;
+			baseConfigurationReference = E5B8636AB0E66DC2A8F7EEE3 /* Pods-defaultProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = recipesappreactnative/Info.plist;
+				INFOPLIST_FILE = defaultProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -328,18 +328,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = recipesappreactnative;
+				PRODUCT_NAME = defaultProject;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8A150C5EB474E39FF53DC28 /* Pods-recipesappreactnative.release.xcconfig */;
+			baseConfigurationReference = 2571D234994F282D59328502 /* Pods-defaultProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = recipesappreactnative/Info.plist;
+				INFOPLIST_FILE = defaultProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -347,7 +347,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = recipesappreactnative;
+				PRODUCT_NAME = defaultProject;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -454,23 +454,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "recipesappreactnative" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "defaultProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
 			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "recipesappreactnative" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "defaultProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

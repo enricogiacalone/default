@@ -1,4 +1,4 @@
-package com.recipesappreactnative;
+package com.defaultproject;
 
 import android.content.Intent;
 import android.os.Bundle;

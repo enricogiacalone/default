@@ -30,5 +30,5 @@
     "entryPoint": "node_modules/expo/AppEntry.js"
   },
   "displayName": "Instafood",
-  "name": "recipesappreactnative"
+  "name": "defaultProject"
 }

@@ -1,4 +1,4 @@
-package com.recipesappreactnative.generated;
+package com.defaultproject.generated;
 
 import java.util.Arrays;
 import java.util.List;

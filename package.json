@@ -8,10 +8,10 @@
     "ios": "react-native run-ios",
     "ios-dev": "ENVFILE=.env.dev react-native run-ios",
     "ios-stage": "ENVFILE=.env.stage react-native run-ios",
-    "purge": "rm -rf node_modules/ && npm install && cd ios && pod deintegrate && pod install && cd .. && npm start -- --reset-cache",
+    "purge": "rm -rf node_modules/ && npm install && cd ios && pod deintegrate && pod install && cd .. && cd android && ./gradlew clean && cd .. && npm start -- --reset-cache",
     "clean:build:android": "rm -rf android/app/build",
     "web": "expo start --web",
-    "devtools":"react-devtools"
+    "devtools": "react-devtools"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.0",
@@ -54,7 +54,7 @@
     "react-test-renderer": "~16.9.0"
   },
   "private": true,
-  "name": "recipes-app-react-native",
+  "name": "default-project",
   "version": "1.0.0",
   "rnpm": {
     "assets": [

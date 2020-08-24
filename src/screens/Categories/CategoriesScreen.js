@@ -21,8 +21,8 @@ export default class CategoriesScreen extends Component {
 
   renderCategory = ({ item }) => (
     <TouchableHighlight
-      underlayColor="rgba(73,182,77,1,0.9)"
-      onPress={() => this.onPressCategory(item)}
+    underlayColor="#fff"
+    onPress={() => this.onPressCategory(item)}
     >
       <View style={styles.categoriesItemContainer}>
         <Image

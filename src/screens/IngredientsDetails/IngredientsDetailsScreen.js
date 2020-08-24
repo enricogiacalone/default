@@ -25,7 +25,7 @@ export default class IngredientsDetailsScreen extends Component {
 
   renderIngredient = ({ item }) => (
     <TouchableHighlight
-      underlayColor="rgba(73,182,77,1,0.9)"
+      underlayColor="#fff"
       onPress={() => this.onPressIngredient(item[0])}
     >
       <View style={styles.container}>

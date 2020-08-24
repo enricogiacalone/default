@@ -36,7 +36,7 @@ export default class HomeScreen extends Component {
 
   renderRecipes = ({ item }) => (
     <TouchableHighlight
-      underlayColor="rgba(73,182,77,1,0.9)"
+      underlayColor="#fff"
       onPress={() => this.onPressRecipe(item)}
     >
       <View style={styles.container}>

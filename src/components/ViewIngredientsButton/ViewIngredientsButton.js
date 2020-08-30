@@ -12,7 +12,24 @@ export default class ViewIngredientsButton extends Component {
 
   componentDidMount() {
     this.localNotify = notificationManager;
-    this.localNotify.configure();
+    this.localNotify.configure(
+      this.onRegister,
+      this.onNotification,
+      this.onOpenNotification
+    );
+  }
+
+  onRegister(token) {
+    console.log("[ Notification ] registered ", token);
+  }
+
+  onNotification(notify) {
+    console.log("[ Notification ] onNotification ", notify);
+  }
+
+  onOpenNotification(notify) {
+    console.log("[ Notification ] onNotification ", notify);
+    alert("Open Notification");
   }
 
   onPressSendNotification = () => {

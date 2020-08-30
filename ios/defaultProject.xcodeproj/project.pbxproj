@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07FACF3906CC492AB07BE4E5 /* Everett-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7468802D30B54252A8679AA5 /* Everett-Regular.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4C336C4E74CD4BC89E33E3F4 /* nen-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B108736429424AB3900E8202 /* nen-icons.ttf */; };
+		A1A5846D09204492A5159002 /* Everett-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B78F1207D524E229FF436FE /* Everett-Medium.ttf */; };
+		A55EAA11B9004D77BD99C90A /* Everett-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5978D0A0E35244C7A27F2A08 /* Everett-Light.ttf */; };
 		CDEC4CAACAE63F547D86F1CC /* libPods-defaultProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1F209C31281C33B0BF32F5 /* libPods-defaultProject.a */; };
-		FB7C8F2B24EEC46800F334EC /* nen-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7C8F2424EEB56900F334EC /* nen-icons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +29,14 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = defaultProject/main.m; sourceTree = "<group>"; };
 		2571D234994F282D59328502 /* Pods-defaultProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaultProject.release.xcconfig"; path = "Target Support Files/Pods-defaultProject/Pods-defaultProject.release.xcconfig"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B78F1207D524E229FF436FE /* Everett-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Everett-Medium.ttf"; path = "../src/assets/fonts/Everett/Everett-Medium.ttf"; sourceTree = "<group>"; };
+		5978D0A0E35244C7A27F2A08 /* Everett-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Everett-Light.ttf"; path = "../src/assets/fonts/Everett/Everett-Light.ttf"; sourceTree = "<group>"; };
 		5D1F209C31281C33B0BF32F5 /* libPods-defaultProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaultProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7468802D30B54252A8679AA5 /* Everett-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Everett-Regular.ttf"; path = "../src/assets/fonts/Everett/Everett-Regular.ttf"; sourceTree = "<group>"; };
+		B108736429424AB3900E8202 /* nen-icons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nen-icons.ttf"; path = "../src/assets/fonts/Icons/nen-icons.ttf"; sourceTree = "<group>"; };
 		E5B8636AB0E66DC2A8F7EEE3 /* Pods-defaultProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaultProject.debug.xcconfig"; path = "Target Support Files/Pods-defaultProject/Pods-defaultProject.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FB7C8F2424EEB56900F334EC /* nen-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "nen-icons.ttf"; path = "../../src/assets/fonts/Icons/nen-icons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +118,10 @@
 		FB7C8F2324EEB52900F334EC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FB7C8F2424EEB56900F334EC /* nen-icons.ttf */,
+				5978D0A0E35244C7A27F2A08 /* Everett-Light.ttf */,
+				4B78F1207D524E229FF436FE /* Everett-Medium.ttf */,
+				7468802D30B54252A8679AA5 /* Everett-Regular.ttf */,
+				B108736429424AB3900E8202 /* nen-icons.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -147,7 +156,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "defaultProject" */;
@@ -174,9 +183,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB7C8F2B24EEC46800F334EC /* nen-icons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				A55EAA11B9004D77BD99C90A /* Everett-Light.ttf in Resources */,
+				A1A5846D09204492A5159002 /* Everett-Medium.ttf in Resources */,
+				07FACF3906CC492AB07BE4E5 /* Everett-Regular.ttf in Resources */,
+				4C336C4E74CD4BC89E33E3F4 /* nen-icons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +472,8 @@
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "defaultProject" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +481,8 @@
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

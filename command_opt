@@ -12,23 +12,23 @@ select opt in "${options[@]}"
 do
     case $opt in
         "Bash")
-            echo "you chose choice 1"
+            echo "you chose choice $REPLY which is $opt"
             bash
             ;;
         "VsCode")
-            echo "you chose choice 1"
+            echo "you chose choice $REPLY which is $opt"
             code .
             ;;
         "Install")
-            echo "you chose choice 1"
+            echo "you chose choice $REPLY which is $opt"
             npm install
             ;;
         "Purge")
-            echo "you chose choice 2"
+            echo "you chose choice $REPLY which is $opt"
             npm run purge
             ;;
         "Server")
-            echo "you chose choice 2"
+            echo "you chose choice $REPLY which is $opt"
             npm start
             ;;
         "ios-dev")
@@ -36,9 +36,11 @@ do
             npm run ios-dev
             ;;
         "android-dev")
+            echo "you chose choice $REPLY which is $opt"
             npm run android-dev
             ;;
         "build-android-stage")
+            echo "you chose choice $REPLY which is $opt"
             npm run build-android-stage
             ;;
         *) echo "invalid option $REPLY";;

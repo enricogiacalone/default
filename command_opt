@@ -7,7 +7,7 @@ parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 cd "$parent_path/"
 
 PS3='Please enter your choice: '
-options=("Bash" "VsCode" "Install" "Purge" "Server" "ios-dev" "android-dev" "build-android-stage")
+options=("Bash" "VsCode" "Install" "Purge" "Server" "ios-dev" "android-dev" "build-android-dev" "Open apk folder")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -39,9 +39,13 @@ do
             echo "you chose choice $REPLY which is $opt"
             npm run android-dev
             ;;
-        "build-android-stage")
+        "build-android-dev")
             echo "you chose choice $REPLY which is $opt"
-            npm run build-android-stage
+            npm run build-android-dev
+            ;;
+        "Open apk folder")
+            echo "you chose choice $REPLY which is $opt"
+            cd android/app/build/outputs/apk/release && open . && cd "$parent_path"
             ;;
         *) echo "invalid option $REPLY";;
     esac

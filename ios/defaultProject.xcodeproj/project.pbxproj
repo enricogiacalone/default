@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07FACF3906CC492AB07BE4E5 /* Everett-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7468802D30B54252A8679AA5 /* Everett-Regular.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		4C336C4E74CD4BC89E33E3F4 /* nen-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B108736429424AB3900E8202 /* nen-icons.ttf */; };
-		A1A5846D09204492A5159002 /* Everett-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B78F1207D524E229FF436FE /* Everett-Medium.ttf */; };
-		A55EAA11B9004D77BD99C90A /* Everett-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5978D0A0E35244C7A27F2A08 /* Everett-Light.ttf */; };
+		3935C6E447EE42F9AC6010B4 /* Everett-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F08099EFF6D44BE29F9616A6 /* Everett-Regular.ttf */; };
+		634B8E38C955421D8D653535 /* nen-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD0BD87741CA4B76ABDA9DD5 /* nen-icons.ttf */; };
+		BEB21E5ED445444EACE49EEE /* Everett-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4DD217369ED473DBB8E4918 /* Everett-Light.ttf */; };
 		CDEC4CAACAE63F547D86F1CC /* libPods-defaultProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1F209C31281C33B0BF32F5 /* libPods-defaultProject.a */; };
+		FBC6BEA3D6AE44158EEBC32E /* Everett-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4DE1893AE1C4328977A02C9 /* Everett-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +29,14 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = defaultProject/main.m; sourceTree = "<group>"; };
 		2571D234994F282D59328502 /* Pods-defaultProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaultProject.release.xcconfig"; path = "Target Support Files/Pods-defaultProject/Pods-defaultProject.release.xcconfig"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B78F1207D524E229FF436FE /* Everett-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Everett-Medium.ttf"; path = "../src/assets/fonts/Everett/Everett-Medium.ttf"; sourceTree = "<group>"; };
-		5978D0A0E35244C7A27F2A08 /* Everett-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Everett-Light.ttf"; path = "../src/assets/fonts/Everett/Everett-Light.ttf"; sourceTree = "<group>"; };
 		5D1F209C31281C33B0BF32F5 /* libPods-defaultProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaultProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7468802D30B54252A8679AA5 /* Everett-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Everett-Regular.ttf"; path = "../src/assets/fonts/Everett/Everett-Regular.ttf"; sourceTree = "<group>"; };
-		B108736429424AB3900E8202 /* nen-icons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nen-icons.ttf"; path = "../src/assets/fonts/Icons/nen-icons.ttf"; sourceTree = "<group>"; };
+		A4DD217369ED473DBB8E4918 /* Everett-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Everett-Light.ttf"; path = "../src/assets/fonts/Everett/Everett-Light.ttf"; sourceTree = "<group>"; };
+		E4DE1893AE1C4328977A02C9 /* Everett-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Everett-Medium.ttf"; path = "../src/assets/fonts/Everett/Everett-Medium.ttf"; sourceTree = "<group>"; };
 		E5B8636AB0E66DC2A8F7EEE3 /* Pods-defaultProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaultProject.debug.xcconfig"; path = "Target Support Files/Pods-defaultProject/Pods-defaultProject.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F08099EFF6D44BE29F9616A6 /* Everett-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Everett-Regular.ttf"; path = "../src/assets/fonts/Everett/Everett-Regular.ttf"; sourceTree = "<group>"; };
+		FD0BD87741CA4B76ABDA9DD5 /* nen-icons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nen-icons.ttf"; path = "../src/assets/fonts/Icons/nen-icons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +86,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				FB7C8F2324EEB52900F334EC /* Resources */,
 				13B07FAE1A68108700A75B9A /* defaultProject */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				DA7D4253EF67D474800E9FFC /* Pods */,
+				A5BA5F8920F74588A523658C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -106,6 +106,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A5BA5F8920F74588A523658C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4DD217369ED473DBB8E4918 /* Everett-Light.ttf */,
+				E4DE1893AE1C4328977A02C9 /* Everett-Medium.ttf */,
+				F08099EFF6D44BE29F9616A6 /* Everett-Regular.ttf */,
+				FD0BD87741CA4B76ABDA9DD5 /* nen-icons.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		DA7D4253EF67D474800E9FFC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,17 +125,6 @@
 				2571D234994F282D59328502 /* Pods-defaultProject.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FB7C8F2324EEB52900F334EC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5978D0A0E35244C7A27F2A08 /* Everett-Light.ttf */,
-				4B78F1207D524E229FF436FE /* Everett-Medium.ttf */,
-				7468802D30B54252A8679AA5 /* Everett-Regular.ttf */,
-				B108736429424AB3900E8202 /* nen-icons.ttf */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +140,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3E32078ECA166E8EE5CE5F97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,10 +185,10 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				A55EAA11B9004D77BD99C90A /* Everett-Light.ttf in Resources */,
-				A1A5846D09204492A5159002 /* Everett-Medium.ttf in Resources */,
-				07FACF3906CC492AB07BE4E5 /* Everett-Regular.ttf in Resources */,
-				4C336C4E74CD4BC89E33E3F4 /* nen-icons.ttf in Resources */,
+				BEB21E5ED445444EACE49EEE /* Everett-Light.ttf in Resources */,
+				FBC6BEA3D6AE44158EEBC32E /* Everett-Medium.ttf in Resources */,
+				3935C6E447EE42F9AC6010B4 /* Everett-Regular.ttf in Resources */,
+				634B8E38C955421D8D653535 /* nen-icons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,54 +229,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E32078ECA166E8EE5CE5F97 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-defaultProject/Pods-defaultProject-resources.sh",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-defaultProject/Pods-defaultProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD4C38642228810C00325AF5 /* Start Packager */ = {

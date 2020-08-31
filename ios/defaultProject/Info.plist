@@ -75,10 +75,10 @@
 	<string>Allow defaultProject to access your reminders</string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Everett-Light.ttf</string>
 		<string>Everett-Medium.ttf</string>
 		<string>Everett-Regular.ttf</string>
 		<string>nen-icons.ttf</string>
-		<string>Everett-Light.ttf</string>
 	</array>
 </dict>
 </plist>

@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 14,
-    color: '#2cd18a'
+    color: '#2cd18a',
+    fontFamily: "Everett-Regular",
   }
 });
 

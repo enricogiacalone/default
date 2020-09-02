@@ -12,7 +12,8 @@ export default class DrawerContainer extends Component {
         <View style={styles.container}>
           <MenuButton
             title="HOME"
-            source={require("../../../assets/icons/home.png")}
+            iconSource="home"
+            // source={require("../../../assets/icons/home.png")}
             onPress={() => {
               navigation.navigate("Home");
               navigation.closeDrawer();
@@ -20,7 +21,8 @@ export default class DrawerContainer extends Component {
           />
           <MenuButton
             title="CATEGORIES"
-            source={require("../../../assets/icons/category.png")}
+            // source={require("../../../assets/icons/category.png")}
+            iconSource="filters"
             onPress={() => {
               navigation.navigate("Categories");
               navigation.closeDrawer();
@@ -28,7 +30,8 @@ export default class DrawerContainer extends Component {
           />
           <MenuButton
             title="SEARCH"
-            source={require("../../../assets/icons/search.png")}
+            iconSource="search"
+            // source={require("../../../assets/icons/search.png")}
             onPress={() => {
               navigation.navigate("Search");
               navigation.closeDrawer();

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "react-native start",
+    "start": "react-native start --reset-cache",
     "android": "react-native run-android",
     "android-dev": "ENVFILE=.env.dev react-native run-android",
     "android-stage": "ENVFILE=.env.stage react-native run-android",

@@ -4,6 +4,7 @@ require_relative '../node_modules/react-native-unimodules/cocoapods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 target 'defaultProject' do
+  
   rnPrefix = "../node_modules/react-native"
 
   # React Native and its dependencies

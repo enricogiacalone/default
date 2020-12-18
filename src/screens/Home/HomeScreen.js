@@ -13,6 +13,7 @@ import { recipes } from "../../data/dataArrays";
 import MenuImage from "../../components/MenuImage/MenuImage";
 import DrawerActions from "react-navigation";
 import { getCategoryName } from "../../data/MockDataAPI";
+import MaterialCommunityIconsIcon from "react-native-vector-icons/MaterialCommunityIcons";
 
 export default class HomeScreen extends Component {
   static navigationOptions = ({ navigation }) => ({
@@ -41,6 +42,7 @@ export default class HomeScreen extends Component {
     >
       <View style={styles.container}>
         <Image style={styles.photo} source={{ uri: item.photo_url }} />
+        {/* <MaterialCommunityIconsIcon name={"ghost"} size={30} color="#bf1313" /> */}
         <Text style={styles.title}>{item.title}</Text>
         <Text style={styles.category}>{getCategoryName(item.categoryId)}</Text>
       </View>

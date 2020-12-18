@@ -18,7 +18,8 @@ import {
 } from "../../data/MockDataAPI";
 import BackButton from "../../components/BackButton/BackButton";
 import ViewIngredientsButton from "../../components/ViewIngredientsButton/ViewIngredientsButton";
-import Icon from "react-native-vector-icons/FontAwesome";
+import FontAwesomeIcon from "react-native-vector-icons/FontAwesome";
+import MaterialCommunityIconsIcon from "react-native-vector-icons/MaterialCommunityIcons";
 
 const { width: viewportWidth } = Dimensions.get("window");
 
@@ -100,8 +101,9 @@ export default class RecipeScreen extends Component {
           </View>
         </View>
         <View style={styles.infoRecipeContainer}>
-          <Icon name="rocket" size={80} color="#006" />
-          <Text style={styles.infoRecipeName}>{item.title}</Text>
+          {/* <FontAwesomeIcon name="rocket" size={80} color="#006" /> */}
+
+          <MaterialCommunityIconsIcon name={"ghost"} size={30} color="#bf1313" />
           <View style={styles.infoContainer}>
             <TouchableHighlight
               onPress={() =>

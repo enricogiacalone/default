@@ -57,10 +57,5 @@
   },
   "private": true,
   "name": "default-project",
-  "version": "1.0.0",
-  "rnpm": {
-    "assets": [
-      "./src/assets/fonts"
-    ]
-  }
+  "version": "1.0.0"
 }
